@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prueba</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	  <script type="text/javascript">
+	  	
+	  		$(document).ready(function() {
+	  		
+	  				$('.caja,.nombre').click(function() {
+
+
+							$('.caja,.apellido').css('display','inline');	  							
+
+
+	  				});
+
+
+	  		});
+
+	  </script>
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+<header>
+<img src="C:\Users\Chicos\Downloads\the-immortals.jpg" class="immortals">
+<h1 class="encabezado1">Bienvenido a Immortals</h1>
+</header>
+<main>
+
+<form align="center" class="">
+<div id="cabecera_formulario">
+	<h1>Regístrate</h1>
+</div>
+<br>
+<div id="div_nombre">
+	<p>Nombre</p>
+	<br>
+	<input type="text" class="caja nombre" placeholder="Nombre" autofocus>
+</div>
+<br>
+<div id="div_apellido">
+	<p>Apellido</p>
+	<br>
+	<input type="text" class="caja apellido" placeholder="Apellido" required>
+</div>
+<br>
+<div id="div_correo">
+	<p>Correo</p>
+	<br>
+	<input type="email" class="caja correo" placeholder="Correo" required>
+</div>
+<br>
+<div id="div_contraseña">
+	<p>Contraseña</p>
+	<br>
+	<input type="password" class="caja contraseña" placeholder="Contraseña" required>
+</div>
+<br>
+<div id="div_rep_contraseña">
+	<p>Repetir Contraseña</p>
+	<br>
+	<input type="password" class="caja rep-contraseña" placeholder="Repetir Contraseña" required>
+</div>
+<br>
+<div id="div_boton">
+	<button class="boton">Regístrate</button>
+</div>
+   
+</form>
+</main>
+</body>
+</html>

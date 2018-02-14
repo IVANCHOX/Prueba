@@ -1,0 +1,95 @@
+* {
+
+	padding: 0;
+	margin: 0;
+
+}
+body {
+	background: #363636;
+
+}
+
+header {
+
+	display: flex;
+	background: black;
+	font-family: 'Anton', sans-serif;
+	color: #00b2a9;
+}
+
+.immortals {
+
+	width: 10%;
+	height: 10%;
+	padding: 1%;
+}
+.encabezado1 {
+
+	margin-top: 2%;
+}
+.encabezado_formulario {
+
+	 font-family: 'Anton', sans-serif;
+}
+form {
+
+	 width: 40%;
+	 padding: 10% 30% 10% 30%;
+	 font-family: 'Anton', sans-serif; 
+}
+.caja {
+
+	 border: none;
+	 border-bottom: 1px solid #000000;
+	 border-radius: 1% 2% 1% 2%;
+	 background: transparent;
+	 color: #00b2a9;
+	 padding: 0.5%;
+}
+
+.caja:focus {
+
+	transition: border-bottom 1s ease 0.5s;
+    outline: none;
+	border-bottom: 1px solid #00b2a9;
+
+
+}
+.apellido {
+
+    display: none;
+
+}
+.correo {
+
+    display: none;
+
+}
+.contraseña {
+
+    display: none;
+
+}
+.rep-contraseña {
+
+
+	 display: none;
+}
+
+.boton {
+
+	  border: none;
+	  border-radius: 1%;
+	  width: 15%;
+	  background: #00b2a9;
+	  height: 2em;
+	  border-radius: 4% 5% 4% 5%;
+	  font-family: 'Anton', sans-serif; 
+
+
+}
+.boton:hover {
+
+	 background: #0A8BA3;
+}
+
